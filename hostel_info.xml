@@ -1,0 +1,14 @@
+<hostel>
+    <details>
+        <name>Boys Hostel</name>
+        <location>Puducherry, India</location>
+        <address>123 Street, Puducherry City</address>
+        <description>Puducherry Technological University</description>
+    </details>
+    <rules>
+        <rule>No smoking allowed inside the hostel premises.</rule>
+        <rule>Quiet hours are from 10 PM to 7 AM.</rule>
+        <rule>Guests are not allowed after 10 PM.</rule>
+        <rule>Residents must keep their rooms and common areas clean.</rule>
+    </rules>
+</hostel>

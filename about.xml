@@ -1,0 +1,53 @@
+<about>
+    <projectDescription>
+        The Hostel Management System is a web-based application designed to streamline the management of hostel facilities in educational institutions. It provides functionalities for user authentication, room management, notice issuance, complaints handling, student data management, and payment submissions.
+    </projectDescription>
+    <objectives>
+        <objective>Provide a secure and efficient platform for managing hostel facilities.</objective>
+        <objective>Automate processes such as room allocation, notice dissemination, and complaints handling.</objective>
+        <objective>Facilitate seamless communication between administrators and students.</objective>
+        <objective>Ensure accurate record-keeping of student data and financial transactions.</objective>
+    </objectives>
+    <technologies>
+        <technology>Java Servlets and JSP for server-side development.</technology>
+        <technology>JavaScript for client-side validation and interaction.</technology>
+        <technology>JDBC for database connectivity with MySQL.</technology>
+        <technology>PHP for handling payment submissions.</technology>
+        <technology>HTML, CSS, and Bootstrap for front-end design.</technology>
+    </technologies>
+    <modules>
+        <module>
+            <name>User Authentication</name>
+            <description>User authentication allows admins and students to access their respective panels. Admin login and student login pages validate credentials using JavaScript and handle redirection. Session management ensures secure access.</description>
+            <links>
+                <link>http://localhost:8080/hostel/adminlogin.jsp</link>
+                <link>http://localhost:8080/hostel/studentlogin.jsp</link>
+            </links>
+        </module>
+        <module>
+            <name>Managing Rooms</name>
+            <description>Admins can manage rooms, assign students, and update room occupancy. JDBC connectivity is used to interact with the MySQL database.</description>
+            <link>http://localhost:8080/hostel/admin/rooms.jsp</link>
+        </module>
+        <module>
+            <name>Notice Management</name>
+            <description>Admins can issue notices that are displayed to students in descending order of time. JDBC connectivity is used for interaction with the MySQL database.</description>
+            <link>http://localhost:8080/hostel/admin/notice.jsp</link>
+        </module>
+        <module>
+            <name>Complaints Handling</name>
+            <description>Students can submit complaints, which are received and managed by admins. Interaction with the MySQL database is facilitated using JDBC.</description>
+            <link>http://localhost:8080/hostel/student/complaints.jsp</link>
+        </module>
+        <module>
+            <name>Student Management</name>
+            <description>Admins can add and manage student data, issue usernames, and passwords. JDBC connectivity is used for interaction with the MySQL database.</description>
+            <link>http://localhost:8080/hostel/admin/fetchstudents.jsp</link>
+        </module>
+        <module>
+            <name>Payment Submission</name>
+            <description>Students can submit payment receipts, which are fetched by admins. PHP is used for handling payment submissions.</description>
+            <link>http://localhost:8080/hostel/student/payment.jsp</link>
+        </module>
+    </modules>
+</about>
